@@ -1,24 +1,118 @@
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
-html {
-  box-sizing: border-box;
-  font-size: 16px;
-}
 
-*, *:before, *:after {
-  box-sizing: inherit;
-}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto&display=swap');
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+* {
   margin: 0;
   padding: 0;
-  font-weight: lighter;
+  box-sizing: border-box;
+
 }
 
-/*  Set the font */
-body {
-  font-family: "Helvetica", sans-serif;
+.whole {
+  padding: 40px;
 }
+
+
+header {
+  display: flex;
+  background-image: url("../images/apple-pie.jpg");
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 22px;
+
+}
+
+body {
+  font-family: 'Open Sans', sans-serif; 
+  text-align: justify;
+}
+
+.section {
+  border-bottom: 2px solid gray; 
+  padding: 30px;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  margin-bottom: 40px; 
+  
+   
+}
+
+#intro {
+  text-align: justify;
+  display: block;
+}
+
+
+
+.ingredients {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid gray;
+  padding: 30px;
+  
+  
+}
+
+
+.image {
+  padding: 20px;
+  
+  display: flex;
+  justify-content: center;
+  
+}
+
+h3 {
+  padding: 10px;
+  margin-bottom: 20px;
+  
+}
+
+#title {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.directions {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  margin: 5px 10px 5px 10px;
+
+}
+
+ul{
+  list-style: none;
+  padding: 20px;
+}
+
+ol {
+  padding: 20px;
+}
+
+li{
+  margin-top: 9px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*  Set the font */
+
 
 /* STYLES */
 /* Write your CSS below */
